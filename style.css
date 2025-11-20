@@ -1,0 +1,1453 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color:floralwhite;
+}
+
+.topp {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-color: grey;
+    background-color: rgb(237, 237, 237);
+    box-shadow: 0 0 10px rgba(213, 213, 213, 0.5);
+
+}
+
+.main {
+    border-color: rgb(157, 157, 157);
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.pic {
+    background-color: rgb(240, 238, 238);
+    border-color: rgb(157, 157, 157);
+    padding: 9px;
+    border: 1px solid #c7c6c6;
+}
+
+.pics {
+    padding: 6px;
+    border-top: 0.5px solid #c7c6c6;
+    background-color: rgb(240, 238, 238);
+    border-bottom: 0.5px solid #c7c6c6;
+}
+
+hr {
+    color: black;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+.header {
+    height: 15.5vh;
+    margin: 0px 150px 0px 150px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.one {
+    border-bottom: 5px solid rgb(139, 139, 139);
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+
+.one:hover {
+    background-color: rgb(159, 159, 159);
+    color: azure;
+}
+
+.two {
+    border-bottom: 5px solid rgb(255, 0, 0);
+    color: rgb(119, 119, 119);
+}
+
+.two:hover {
+    background-color: rgb(255, 0, 0);
+    color: azure;
+}
+
+.three {
+    border-bottom: 5px solid rgb(255, 140, 0);
+    color: rgb(119, 119, 119);
+}
+
+.three:hover {
+    background-color: rgb(255, 119, 0);
+    color: azure;
+}
+
+.four {
+    border-bottom: 5px solid rgb(234, 222, 9);
+    color: rgb(119, 119, 119);
+}
+
+.four:hover {
+    background-color: rgb(227, 216, 7);
+    color: azure;
+}
+
+.five {
+    border-bottom: 5px solid rgb(26, 255, 0);
+    color: rgb(119, 119, 119);
+}
+
+.five:hover {
+    background-color: rgb(55, 255, 0);
+    color: azure;
+}
+
+.six {
+    border-bottom: 5px solid rgb(0, 160, 177);
+    color: rgb(119, 119, 119);
+}
+
+.six:hover {
+    background-color: rgb(0, 165, 171);
+    color: azure;
+}
+
+.seven {
+    border-bottom: 5px solid rgb(0, 50, 188);
+    color: rgb(119, 119, 119);
+}
+
+.seven:hover {
+    background-color: rgb(0, 7, 198);
+    color: azure;
+}
+
+.contain {
+    background-image: url(https://images.pond5.com/abstract-light-grey-technology-geometric-084686574_prevstill.jpeg);
+    background-size: cover;
+    justify-content: center;
+    margin-right: 100px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: 130vh;
+    position: relative;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 175px;
+    border-radius: 5px;
+    background-color: rgb(227, 161, 27);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 289px;
+    height: 450px;
+    transition: 0.4s;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0%;
+    border-radius: 5px;
+    background-color: rgb(0, 181, 217);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 650px;
+    height: 73vh;
+    transition: 0.4s;
+}
+
+.first:hover {
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+}
+
+.first>img {
+    width: 650px;
+}
+
+.left>h1,
+p {
+    margin-bottom: 0;
+}
+
+.first>h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: azure;
+    margin: 10px 8px 0px 12px;
+}
+
+.first>p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 5px 5px 10px 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgb(77, 59, 23);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 310px;
+    height: 50vh;
+    position: absolute;
+    left: 3px;
+    top: 490px;
+    transition: 0.2s;
+}
+
+.second:hover {
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+}
+
+.second>img {
+    width: 310px;
+    height: 250px;
+}
+
+.second>h1 {
+    font-size: x-large;
+    font-weight: 400;
+    color: azure;
+    margin: 10px 8px 12px 12px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 310px;
+    height: 50vh;
+    position: absolute;
+    left: 340px;
+    top: 490px;
+    transition: 0.2s;
+}
+
+.third:hover {
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+}
+
+.third>img {
+    width: 310px;
+    height: 250px;
+}
+
+.third>h1 {
+    font-size: x-large;
+    font-weight: 400;
+    color: azure;
+    margin: 10px 8px 12px 12px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: rgb(229, 255, 0);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 289px;
+    gap: 5px;
+}
+
+.containerfirst {
+    background-color: rgb(255, 47, 0);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: bolder;
+    width: 330px;
+    height: 45vh;
+    position: absolute;
+    right: 180px;
+    top: 0px;
+}
+
+.containerfirst:hover {
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+}
+
+.containerfirst>img {
+    width: 330px;
+    height: 200px;
+}
+
+.containerfirst>h1 {
+    font-size: x-large;
+    font-weight: 200rem;
+    color: azure;
+    margin: 10px 8px 12px 12px;
+}
+
+.containersecond {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 330px;
+    height: 45vh;
+    position: absolute;
+    right: 180px;
+    top: 310px;
+    background-color: rgb(33, 33, 31);
+    transition: 0.2s;
+}
+
+.containersecond:hover {
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+}
+
+.containersecond>img {
+    width: 330px;
+    height: 200px;
+}
+
+.containersecond>h1 {
+    font-size: x-large;
+    font-weight: 400;
+    color: azure;
+    margin: 10px 8px 12px 12px;
+}
+
+.containerthird {
+    align-items: center;
+    position: absolute;
+    top: 620px;
+    right: 180px;
+    border-radius: 5px;
+    background-color: rgb(0, 11, 165);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 330px;
+    height: 30vh;
+    transition: 0.2s;
+}
+
+.containerthird:hover {
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+}
+
+.containerthird>img {
+    width: 330px;
+    height: 175px;
+}
+
+.containerthird>h1 {
+    font-size: x-large;
+    font-weight: 400;
+    color: azure;
+    margin: 10px 8px 12px 12px;
+}
+
+.sticker {
+    font-size: small;
+    font-weight: 5rem;
+    color: azure;
+    margin: 50px 0px 0px 210px;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #303133;
+    color: rgb(170, 168, 168);
+    padding: 0px 30px 0px 30px;
+}
+
+.secondcontainer {
+    background-image: url(https://images.pond5.com/abstract-light-grey-technology-geometric-084686574_prevstill.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 72vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.firstcard {
+    background-color: #646464;
+    width: 25%;
+    height: 60vh;
+    border: 1px solid black;
+}
+
+.firstcard:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+.firstcard img {
+    width: 100%;
+    height: 40vh;
+}
+
+h2 {
+    background-color: #303133;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 67px;
+    padding-top: 20px;
+    margin-top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.middlediv {
+    background-color: #171718;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 131px;
+    padding-top: 20px;
+    margin-top: 10px;
+    position: relative;
+    top: 0;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 35px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: bold;
+    font-weight: 400;
+}
+
+.leftside {
+    font-size: large;
+    margin: 0px 50px 35px 0px;
+}
+
+.but {
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(15, 0, 153);
+    color: azure;
+    position: absolute;
+    left: 100px;
+    margin: 0px 25px 30px 35px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.butt {
+    background-color: rgb(0, 100, 0);
+    position: relative;
+    left: 50px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    color: azure;
+    font-family: "Ubuntu", sans-serif;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.leftsidesec {
+    font-size: large;
+}
+
+.rightside {
+    margin-left: 30px;
+}
+
+.secondcard {
+    background-color: #646464;
+    width: 25%;
+    height: 60vh;
+    border: 1px solid black;
+}
+
+.secondcard:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+.secondcard img {
+    width: 100%;
+    height: 40vh;
+}
+
+.thirdcard {
+    background-color: #646464;
+    width: 30%;
+    height: 70vh;
+    border: 1px solid black;
+    position: relative;
+}
+
+.thirdcard:hover {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.thirdcard img {
+    margin: -60px 0px 0px 0px;
+    width: 100%;
+    height: 49.2vh;
+    position: relative;
+    top: 0px;
+}
+
+.fourthcard {
+    background-color: #646464;
+    width: 25%;
+    height: 60vh;
+    border: 1px solid black;
+}
+
+.fourthcard:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+.fourthcard img {
+    width: 100%;
+    height: 40vh;
+}
+
+.fifthcard {
+    background-color: #646464;
+    width: 25%;
+    height: 60vh;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.fifthcard:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+.fifthcard img {
+    width: 100%;
+    height: 40vh;
+}
+
+.explore {
+    background-color: rgb(70, 70, 70);
+    color: azure;
+    margin-left: 850px;
+    margin-bottom: 65px;
+    padding: 10px 15px 10px 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: #646464;
+}
+
+.explorebutton{
+    background-color: rgb(231, 231, 231);
+}
+
+.lastdiv {
+    background-image: url(https://images.pond5.com/abstract-light-grey-technology-geometric-084686574_prevstill.jpeg);
+    background-size: cover;
+    justify-content: center;
+    margin: 0px 10px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: 130vh;
+    position: relative;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 175px;
+    border-radius: 5px;
+    background-color: rgb(227, 161, 27);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 289px;
+    height: 450px;
+    transition: 0.2s;
+}
+
+.cardone {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgb(146, 146, 146);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 330px;
+    height: 70vh;
+    position: relative;
+    top: 50px;
+    transition: 0.4s;
+}
+
+.cardone:hover {
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+}
+
+.cardone>img {
+    width: 330px;
+    height: 250px;
+}
+
+.leftcard>h3,
+p {
+    padding: 0px 0px 0px 5px;
+    margin-bottom: 0;
+}
+
+.cardone>h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: azure;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 20px 8px 0px 20px;
+}
+
+.cardone>p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 5px 15px 10px 15px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.cardtwo {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgb(230, 56, 56);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 330px;
+    height: 70vh;
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    transition: 0.2s;}
+
+.cardtwo:hover {
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+}
+
+.cardtwo>img {
+    width: 330px;
+    height: 250px;
+}
+
+.cardtwo>h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: azure;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 20px 8px 0px 20px;
+}
+
+.cardtwo>p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 5px 5px 10px 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.cardthree {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgb(195, 28, 201);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 330px;
+    height: 70vh;
+    position: absolute;
+    right: 140px;
+    top: 50px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.cardthree:hover {
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+}
+
+.cardthree>img {
+    width: 330px;
+    height: 250px;
+}
+
+.cardthree>h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: azure;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 20px 8px 0px 20px;
+}
+
+.cardthree>p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 5px 5px 10px 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.bottom {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: rgb(229, 255, 0);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 289px;
+    gap: 5px;
+
+}
+
+.cardfour {
+    background-color: rgb(131, 46, 211);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: bolder;
+    width: 330px;
+    height: 60vh;
+    border-radius: 5px;
+    position: absolute;
+    left: 175px;
+    top: 530px;
+    transition: 0.2s;
+}
+
+.cardfour:hover {
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+}
+
+.cardfour>img {
+    width: 330px;
+    height: 200px;
+}
+
+.cardfour>h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: azure;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 20px 8px 0px 20px;
+}
+
+.cardfour>p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 5px 5px 10px 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.centerpart {
+    font-family: "Ubuntu", sans-serif;
+    margin-left: 530px;
+    font-size: larger;
+    font-weight: 23rem;
+    color: #646464;
+}
+
+.cardfive {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 330px;
+    height: 60vh;
+    position: absolute;
+    right: 495px;
+    top: 590px;
+    background-color: rgb(25, 0, 253);
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.cardfive:hover {
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+}
+
+.cardfive>img {
+    width: 330px;
+    height: 200px;
+}
+
+.cardfive>h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: azure;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 20px 8px 0px 20px;
+}
+
+.cardfive>p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 5px 5px 10px 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.cardsix {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 330px;
+    height: 60vh;
+    position: absolute;
+    right: 135px;
+    top: 530px;
+    background-color: rgb(70, 179, 84);
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.cardsix:hover {
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+}
+
+.cardsix>img {
+    width: 330px;
+    height: 175px;
+}
+
+.cardsix>h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 20px 8px 0px 20px;
+}
+
+.cardsix>p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 5px 5px 10px 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.cardseventh {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 330px;
+    height: 20vh;
+    position: absolute;
+    right: 135px;
+    top: 940px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.cardseven {
+    height: 10vh;
+    background-color: rgb(243, 103, 52);
+    width: 100%;
+}
+
+.cardseven:hover {
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+}
+
+.cardseven>h4 {
+    font-size: x-large;
+    font-weight: 400;
+    color: azure;
+    margin: 20px 8px 12px 20px;
+}
+
+.news {
+    background-color: rgb(43, 190, 209);
+    height: 10vh;
+    border-radius: 2px 2px 90px 2px;
+}
+
+.news:hover {
+    background-color: rgb(38, 141, 167);
+}
+
+.news>p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 10px 5px 10px 20px;
+    font-weight: 500;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    padding-top: 30px;
+    margin-top: 580px;
+    background-color: rgb(61, 59, 59);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.form {
+    height: 80vh;
+    width: 100%;
+    background-color: #181616;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+#footerheading {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-size: x-large;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 10px 0px;
+    margin: 0px 8px 0px 160px;
+}
+
+.data {
+    width: 433px;
+    padding: 0px 0px 0px 10px;
+    margin-left: 160px;
+    height: 7vh;
+    border-radius: 5px;
+    border: 2px black;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+input:focus {
+    border: 5px solid red;
+}
+
+select {
+    color: grey;
+    margin-top: 10px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 8px 0px 160px;
+    height: 7vh;
+    border-radius: 1%;
+    font-size: medium;
+    font-weight: bold;
+    width: 210px;
+    border-radius: 5px;
+    border: 2px black;
+}
+
+#birthdate {
+    color: grey;
+    width: 210px;
+    margin-top: 10px;
+    margin-left: 3px;
+    height: 7vh;
+    border-radius: 1%;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px black;
+
+}
+
+#butn {
+    margin: 10px 8px 0px 160px;
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(134, 134, 134);
+    border-radius: 5px;
+    border: 2px black;
+    color: azure;
+    font-family: "Ubuntu", sans-serif;
+    font-style: bold;
+    font-size: large;
+    font-weight: 400;
+}
+
+.checkbox {
+    position: absolute;
+    top: 125px;
+    left: 665px;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 400px;
+}
+
+.heads>h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: bold;
+    font-size: normal;
+    font-weight: 400;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 0px;
+
+}
+
+.cb {
+    margin-bottom: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: bold;
+    font-size: normal;
+    font-weight: 400;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.chb {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border-color: rgb(0, 192, 199);
+    border-radius: 5px;
+    border: 2px black;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.checkb {
+    width: 33px;
+    height: 33px;
+    margin-right: 5px;
+    border-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.lastpart {
+    height: 40vh;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    left: 0px;
+    top:1500px
+}
+
+.firstportion {
+    width: 45%;
+    height: 20vh;
+    margin-right: 75px;
+    margin-left: 20px;
+}
+
+#personal-links {
+    margin-left: 60px;
+    color: azure;
+    font-size: x-large;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: small;
+}
+
+#links {
+    text-align: justify;
+    padding-left: 63px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    margin-bottom: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: small;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #cf14a1;
+}
+
+.vertical-line {
+    margin: 25px 0px 0px -30px;
+    width: 2px;
+    height: 230px;
+    background-color: rgb(0, 0, 0);
+}
+
+.secvertical-line{
+    margin: 25px 0px 0px 10px;
+    width: 2px;
+    height: 230px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.secondportion {
+    position: relative;
+    padding: 20px;
+    width: 40%;
+    height: 20vh;
+}
+
+.socialmedia {
+    padding-top: 0px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#facebook>img {    
+    width: 37px;
+    height: 6vh;
+    border-radius: 5px;
+}
+
+#youtube>img {
+    width: 35px;
+    height: 6vh;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+#twitter>img {
+    width: 35px;
+    height: 6vh;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+#insta>img {
+    width: 35px;
+    height: 6vh;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+#pinterest>img {
+    width: 35px;
+    height: 6vh;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+
+.thirdportion {
+    width: 30%;
+    height: 20vh;
+    padding-left: 30px;
+}
+
+.other {
+    margin-top: 0px;
+}
+
+.med{
+    width: 180px;
+    height: 12vh;
+    margin-left: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+h6{
+    position: absolute;
+    width: 280px;
+    padding-left: 6px;
+    color: azure;
+}
+
+@media (max-width: 1200px) {
+
+    .header {
+        margin: 0 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+        height: auto; 
+        justify-content: center;
+    }
+
+    .box {
+        width: 150px; 
+        height: 70px;
+        padding: 5px;
+        font-size: 0.8em; 
+    }
+
+    .contain {
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .left, 
+    .first, 
+    .second, 
+    .third, 
+    .containerfirst, 
+    .containersecond, 
+    .containerthird {
+        position: relative;
+        width: 95%; 
+        max-width: 600px; 
+        margin: 15px auto;
+        left: initial;
+        right: initial;
+        top: initial;
+        height: auto; 
+    }
+
+    .left { margin-left: auto; } 
+    .first { width: 95%; } 
+
+     .first > img, 
+    .second > img, 
+    .third > img, 
+    .containerfirst > img, 
+    .containersecond > img, 
+    .containerthird > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sticker {
+        margin: 10px auto 10px 10px; 
+    }
+    .secondcontainer {
+         flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .firstcard, .secondcard, .thirdcard, .fourthcard, .fifthcard {
+       width: 45%;
+        min-width: 300px;
+        margin: 10px;
+        height: auto;
+    }
+    
+    .thirdcard {
+        width: 95%;
+    }
+
+    .thirdcard img {
+        margin: 0;
+        height: 40vh; 
+    }
+
+    .explore {
+        margin: 20px auto; 
+        display: block;
+        width: fit-content;
+    }
+
+    .lastdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .cardone, .cardtwo, .cardthree, .cardfour, .cardfive, .cardsix, .cardseventh {
+        position: relative;
+        left: initial;
+        right: initial;
+        top: initial;
+        width: 95%;
+        max-width: 600px;
+        margin: 15px auto;
+        height: auto;
+    }
+    
+    .cardtwo {
+        top: initial; 
+    }
+
+    .cardone > img, .cardtwo > img, .cardthree > img, .cardfour > img, .cardfive > img, .cardsix > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .centerpart {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .footer {
+        margin-top: 20px; 
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .form {
+        padding: 30px 10px;
+        height: auto;
+    }
+
+    #footerheading {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .data {
+        width: 95%; 
+        max-width: 450px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    select, #birthdate {
+        width: 95%;
+        max-width: 450px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    #butn {
+        margin: 10px 10px 20px 10px;
+        width: 95%; 
+        max-width: 450px;
+    }
+
+    .checkbox {
+        position: relative; 
+        top: initial;
+        left: initial;
+        width: 95%;
+        max-width: 450px;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .lastpart {
+        position: relative;
+        top: initial;
+        left: initial;
+        margin: 20px 0;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .firstportion, .secondportion, .thirdportion {
+        width: 95%;
+        margin: 20px 0;
+        padding: 0 10px;
+        height: auto;
+    }
+
+    #personal-links {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #links {
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .vertical-line, .secvertical-line {
+        display: none; 
+    }
+
+    .socialmedia {
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .med {
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
+        margin-top: 15px;
+    }
+    
+    h6 {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin: 10px 0;
+    }
+}
